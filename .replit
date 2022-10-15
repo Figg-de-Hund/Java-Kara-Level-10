@@ -1,7 +1,7 @@
 compile = "javac -classpath .:./jars/* -d . MyKara.java"
 run = "java MyKara"
 
-entrypoint = "Main.java"
+entrypoint = "MyKara.java"
 hidden = ["**/*.class","ch","jars","images","kara","*.txt"]
 
 [unitTest]
